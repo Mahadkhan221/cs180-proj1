@@ -1,0 +1,917 @@
+[
+ {
+  "image": "cathedral.jpg",
+  "method": "single",
+  "metric": "ssd",
+  "g": [
+   2,
+   5
+  ],
+  "r": [
+   3,
+   12
+  ],
+  "seconds": 0.8,
+  "output": "cathedral_jpg_single_ssd.jpg"
+ },
+ {
+  "image": "cathedral.jpg",
+  "method": "single",
+  "metric": "ncc",
+  "g": [
+   2,
+   5
+  ],
+  "r": [
+   3,
+   12
+  ],
+  "seconds": 1.5,
+  "output": "cathedral_jpg_single_ncc.jpg"
+ },
+ {
+  "image": "cathedral.jpg",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   2,
+   5
+  ],
+  "r": [
+   3,
+   12
+  ],
+  "seconds": 0.8,
+  "output": "cathedral_jpg_pyramid_ssd.jpg"
+ },
+ {
+  "image": "cathedral.jpg",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   2,
+   5
+  ],
+  "r": [
+   3,
+   12
+  ],
+  "seconds": 1.4,
+  "output": "cathedral_jpg_pyramid_ncc.jpg"
+ },
+ {
+  "image": "chapel.tif",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   -4,
+   26
+  ],
+  "r": [
+   -18,
+   62
+  ],
+  "seconds": 3.0,
+  "output": "chapel_tif_pyramid_ssd.jpg"
+ },
+ {
+  "image": "chapel.tif",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   -3,
+   26
+  ],
+  "r": [
+   -18,
+   62
+  ],
+  "seconds": 7.1,
+  "output": "chapel_tif_pyramid_ncc.jpg"
+ },
+ {
+  "image": "church.jpg",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   1,
+   3
+  ],
+  "r": [
+   32,
+   8
+  ],
+  "seconds": 0.1,
+  "output": "church_jpg_pyramid_ssd.jpg"
+ },
+ {
+  "image": "church.jpg",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   0,
+   3
+  ],
+  "r": [
+   -1,
+   7
+  ],
+  "seconds": 0.2,
+  "output": "church_jpg_pyramid_ncc.jpg"
+ },
+ {
+  "image": "church.jpg",
+  "method": "pyramid",
+  "metric": "edge",
+  "g": [
+   1,
+   3
+  ],
+  "r": [
+   0,
+   7
+  ],
+  "seconds": 0.2,
+  "output": "church_jpg_pyramid_edge.jpg"
+ },
+ {
+  "image": "emir.jpg",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   3,
+   5
+  ],
+  "r": [
+   5,
+   8
+  ],
+  "seconds": 0.1,
+  "output": "emir_jpg_pyramid_ssd.jpg"
+ },
+ {
+  "image": "emir.jpg",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   3,
+   5
+  ],
+  "r": [
+   -23,
+   16
+  ],
+  "seconds": 0.2,
+  "output": "emir_jpg_pyramid_ncc.jpg"
+ },
+ {
+  "image": "emir.jpg",
+  "method": "pyramid",
+  "metric": "edge",
+  "g": [
+   3,
+   6
+  ],
+  "r": [
+   4,
+   12
+  ],
+  "seconds": 0.2,
+  "output": "emir_jpg_pyramid_edge.jpg"
+ },
+ {
+  "image": "emir.tif",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   24,
+   49
+  ],
+  "r": [
+   57,
+   102
+  ],
+  "seconds": 2.7,
+  "output": "emir_tif_pyramid_ssd.jpg"
+ },
+ {
+  "image": "emir.tif",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   24,
+   49
+  ],
+  "r": [
+   -203,
+   139
+  ],
+  "seconds": 7.3,
+  "output": "emir_tif_pyramid_ncc.jpg"
+ },
+ {
+  "image": "emir.tif",
+  "method": "pyramid",
+  "metric": "edge",
+  "g": [
+   24,
+   49
+  ],
+  "r": [
+   40,
+   107
+  ],
+  "seconds": 9.0,
+  "output": "emir_tif_pyramid_edge.jpg"
+ },
+ {
+  "image": "harvesters.jpg",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   2,
+   7
+  ],
+  "r": [
+   2,
+   14
+  ],
+  "seconds": 0.1,
+  "output": "harvesters_jpg_pyramid_ssd.jpg"
+ },
+ {
+  "image": "harvesters.jpg",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   2,
+   7
+  ],
+  "r": [
+   2,
+   14
+  ],
+  "seconds": 0.3,
+  "output": "harvesters_jpg_pyramid_ncc.jpg"
+ },
+ {
+  "image": "harvesters.tif",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   16,
+   59
+  ],
+  "r": [
+   13,
+   124
+  ],
+  "seconds": 3.0,
+  "output": "harvesters_tif_pyramid_ssd.jpg"
+ },
+ {
+  "image": "harvesters.tif",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   17,
+   60
+  ],
+  "r": [
+   13,
+   124
+  ],
+  "seconds": 8.2,
+  "output": "harvesters_tif_pyramid_ncc.jpg"
+ },
+ {
+  "image": "icon.jpg",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   2,
+   5
+  ],
+  "r": [
+   2,
+   10
+  ],
+  "seconds": 0.1,
+  "output": "icon_jpg_pyramid_ssd.jpg"
+ },
+ {
+  "image": "icon.jpg",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   2,
+   5
+  ],
+  "r": [
+   2,
+   10
+  ],
+  "seconds": 0.2,
+  "output": "icon_jpg_pyramid_ncc.jpg"
+ },
+ {
+  "image": "italil.jpg",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   2,
+   4
+  ],
+  "r": [
+   4,
+   9
+  ],
+  "seconds": 0.1,
+  "output": "italil_jpg_pyramid_ssd.jpg"
+ },
+ {
+  "image": "italil.jpg",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   2,
+   4
+  ],
+  "r": [
+   4,
+   9
+  ],
+  "seconds": 0.3,
+  "output": "italil_jpg_pyramid_ncc.jpg"
+ },
+ {
+  "image": "italil.tif",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   21,
+   38
+  ],
+  "r": [
+   35,
+   77
+  ],
+  "seconds": 3.4,
+  "output": "italil_tif_pyramid_ssd.jpg"
+ },
+ {
+  "image": "italil.tif",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   21,
+   38
+  ],
+  "r": [
+   35,
+   77
+  ],
+  "seconds": 7.9,
+  "output": "italil_tif_pyramid_ncc.jpg"
+ },
+ {
+  "image": "lastochikino.jpg",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   0,
+   0
+  ],
+  "r": [
+   -1,
+   8
+  ],
+  "seconds": 0.1,
+  "output": "lastochikino_jpg_pyramid_ssd.jpg"
+ },
+ {
+  "image": "lastochikino.jpg",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   0,
+   0
+  ],
+  "r": [
+   -1,
+   8
+  ],
+  "seconds": 0.2,
+  "output": "lastochikino_jpg_pyramid_ncc.jpg"
+ },
+ {
+  "image": "lastochikino.tif",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   -2,
+   -3
+  ],
+  "r": [
+   -9,
+   75
+  ],
+  "seconds": 3.2,
+  "output": "lastochikino_tif_pyramid_ssd.jpg"
+ },
+ {
+  "image": "lastochikino.tif",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   -2,
+   -3
+  ],
+  "r": [
+   -9,
+   75
+  ],
+  "seconds": 9.0,
+  "output": "lastochikino_tif_pyramid_ncc.jpg"
+ },
+ {
+  "image": "lugano.jpg",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   -2,
+   5
+  ],
+  "r": [
+   -3,
+   11
+  ],
+  "seconds": 0.1,
+  "output": "lugano_jpg_pyramid_ssd.jpg"
+ },
+ {
+  "image": "lugano.jpg",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   -2,
+   5
+  ],
+  "r": [
+   -3,
+   10
+  ],
+  "seconds": 0.3,
+  "output": "lugano_jpg_pyramid_ncc.jpg"
+ },
+ {
+  "image": "lugano.tif",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   -16,
+   41
+  ],
+  "r": [
+   -29,
+   93
+  ],
+  "seconds": 3.3,
+  "output": "lugano_tif_pyramid_ssd.jpg"
+ },
+ {
+  "image": "lugano.tif",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   -16,
+   41
+  ],
+  "r": [
+   -29,
+   93
+  ],
+  "seconds": 9.3,
+  "output": "lugano_tif_pyramid_ncc.jpg"
+ },
+ {
+  "image": "melons.jpg",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   1,
+   9
+  ],
+  "r": [
+   1,
+   20
+  ],
+  "seconds": 0.1,
+  "output": "melons_jpg_pyramid_ssd.jpg"
+ },
+ {
+  "image": "melons.jpg",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   1,
+   9
+  ],
+  "r": [
+   2,
+   20
+  ],
+  "seconds": 0.4,
+  "output": "melons_jpg_pyramid_ncc.jpg"
+ },
+ {
+  "image": "melons.tif",
+  "method": "single",
+  "metric": "ssd",
+  "g": [
+   9,
+   15
+  ],
+  "r": [
+   15,
+   15
+  ],
+  "seconds": 84.7,
+  "output": "melons_tif_single_ssd.jpg"
+ },
+ {
+  "image": "melons.tif",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   10,
+   81
+  ],
+  "r": [
+   13,
+   178
+  ],
+  "seconds": 3.3,
+  "output": "melons_tif_pyramid_ssd.jpg"
+ },
+ {
+  "image": "melons.tif",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   10,
+   81
+  ],
+  "r": [
+   13,
+   178
+  ],
+  "seconds": 8.7,
+  "output": "melons_tif_pyramid_ncc.jpg"
+ },
+ {
+  "image": "monastery.jpg",
+  "method": "single",
+  "metric": "ssd",
+  "g": [
+   2,
+   -3
+  ],
+  "r": [
+   2,
+   3
+  ],
+  "seconds": 0.4,
+  "output": "monastery_jpg_single_ssd.jpg"
+ },
+ {
+  "image": "monastery.jpg",
+  "method": "single",
+  "metric": "ncc",
+  "g": [
+   2,
+   -3
+  ],
+  "r": [
+   2,
+   3
+  ],
+  "seconds": 1.0,
+  "output": "monastery_jpg_single_ncc.jpg"
+ },
+ {
+  "image": "monastery.jpg",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   2,
+   -3
+  ],
+  "r": [
+   2,
+   3
+  ],
+  "seconds": 0.4,
+  "output": "monastery_jpg_pyramid_ssd.jpg"
+ },
+ {
+  "image": "monastery.jpg",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   2,
+   -3
+  ],
+  "r": [
+   2,
+   3
+  ],
+  "seconds": 1.1,
+  "output": "monastery_jpg_pyramid_ncc.jpg"
+ },
+ {
+  "image": "railroad.tif",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   99,
+   165
+  ],
+  "r": [
+   238,
+   130
+  ],
+  "seconds": 3.5,
+  "output": "railroad_tif_pyramid_ssd.jpg"
+ },
+ {
+  "image": "railroad.tif",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   4,
+   26
+  ],
+  "r": [
+   5,
+   101
+  ],
+  "seconds": 8.8,
+  "output": "railroad_tif_pyramid_ncc.jpg"
+ },
+ {
+  "image": "railroad.tif",
+  "method": "pyramid",
+  "metric": "edge",
+  "g": [
+   5,
+   26
+  ],
+  "r": [
+   6,
+   101
+  ],
+  "seconds": 10.8,
+  "output": "railroad_tif_pyramid_edge.jpg"
+ },
+ {
+  "image": "self_portrait.jpg",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   3,
+   9
+  ],
+  "r": [
+   4,
+   20
+  ],
+  "seconds": 0.1,
+  "output": "self_portrait_jpg_pyramid_ssd.jpg"
+ },
+ {
+  "image": "self_portrait.jpg",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   3,
+   9
+  ],
+  "r": [
+   4,
+   20
+  ],
+  "seconds": 0.5,
+  "output": "self_portrait_jpg_pyramid_ncc.jpg"
+ },
+ {
+  "image": "self_portrait.tif",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   29,
+   79
+  ],
+  "r": [
+   37,
+   176
+  ],
+  "seconds": 4.0,
+  "output": "self_portrait_tif_pyramid_ssd.jpg"
+ },
+ {
+  "image": "self_portrait.tif",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   29,
+   79
+  ],
+  "r": [
+   37,
+   176
+  ],
+  "seconds": 9.6,
+  "output": "self_portrait_tif_pyramid_ncc.jpg"
+ },
+ {
+  "image": "siren.jpg",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   -1,
+   6
+  ],
+  "r": [
+   -3,
+   11
+  ],
+  "seconds": 0.1,
+  "output": "siren_jpg_pyramid_ssd.jpg"
+ },
+ {
+  "image": "siren.jpg",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   -1,
+   6
+  ],
+  "r": [
+   -3,
+   11
+  ],
+  "seconds": 0.2,
+  "output": "siren_jpg_pyramid_ncc.jpg"
+ },
+ {
+  "image": "siren.tif",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   -6,
+   50
+  ],
+  "r": [
+   -25,
+   96
+  ],
+  "seconds": 3.5,
+  "output": "siren_tif_pyramid_ssd.jpg"
+ },
+ {
+  "image": "siren.tif",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   -6,
+   49
+  ],
+  "r": [
+   -25,
+   96
+  ],
+  "seconds": 8.7,
+  "output": "siren_tif_pyramid_ncc.jpg"
+ },
+ {
+  "image": "three_generations.jpg",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   2,
+   6
+  ],
+  "r": [
+   1,
+   13
+  ],
+  "seconds": 0.2,
+  "output": "three_generations_jpg_pyramid_ssd.jpg"
+ },
+ {
+  "image": "three_generations.jpg",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   2,
+   6
+  ],
+  "r": [
+   1,
+   13
+  ],
+  "seconds": 0.5,
+  "output": "three_generations_jpg_pyramid_ncc.jpg"
+ },
+ {
+  "image": "three_generations.tif",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   14,
+   53
+  ],
+  "r": [
+   11,
+   111
+  ],
+  "seconds": 3.3,
+  "output": "three_generations_tif_pyramid_ssd.jpg"
+ },
+ {
+  "image": "three_generations.tif",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   14,
+   53
+  ],
+  "r": [
+   11,
+   111
+  ],
+  "seconds": 8.9,
+  "output": "three_generations_tif_pyramid_ncc.jpg"
+ },
+ {
+  "image": "tobolsk.jpg",
+  "method": "single",
+  "metric": "ssd",
+  "g": [
+   3,
+   3
+  ],
+  "r": [
+   3,
+   6
+  ],
+  "seconds": 0.5,
+  "output": "tobolsk_jpg_single_ssd.jpg"
+ },
+ {
+  "image": "tobolsk.jpg",
+  "method": "single",
+  "metric": "ncc",
+  "g": [
+   3,
+   3
+  ],
+  "r": [
+   3,
+   6
+  ],
+  "seconds": 1.0,
+  "output": "tobolsk_jpg_single_ncc.jpg"
+ },
+ {
+  "image": "tobolsk.jpg",
+  "method": "pyramid",
+  "metric": "ssd",
+  "g": [
+   3,
+   3
+  ],
+  "r": [
+   3,
+   6
+  ],
+  "seconds": 0.4,
+  "output": "tobolsk_jpg_pyramid_ssd.jpg"
+ },
+ {
+  "image": "tobolsk.jpg",
+  "method": "pyramid",
+  "metric": "ncc",
+  "g": [
+   3,
+   3
+  ],
+  "r": [
+   3,
+   6
+  ],
+  "seconds": 1.0,
+  "output": "tobolsk_jpg_pyramid_ncc.jpg"
+ }
+]

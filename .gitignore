@@ -1,0 +1,22 @@
+# Full-resolution glass-plate masters: ~70 MB each, ~790 MB total. Way past
+# what belongs in a repo, and fully reproducible -- `python fetch_loc.py`
+# re-downloads them from the Library of Congress.
+data/*.tif
+
+# Download caches for the LoC scene-matching (also reproducible).
+data/neg_thumbs/
+data/loc_previews/
+
+# Synthetic test plates -- regenerate with `python make_test_plate.py`.
+test/
+
+.venv/
+__pycache__/
+*.pyc
+
+# Personal details and secrets
+.env
+.secrets
+*.key
+*.pem
+secrets.json
